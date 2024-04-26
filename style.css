@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+.bg-color{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.Heading{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+
+}
+.headname{
+    background-color:#f9dd8f;
+    color: darkslategray;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid lightslategray;
+    text-transform:capitalize;
+}
+.selection{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    gap: 3rem;
+    
+    
+   
+    
+}
+.choice{
+    height: 160px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+    
+}
+.img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid lightslategrey;
+    
+    
+    
+    
+   
+}
+.choice:hover{
+    border-radius: 90%;
+    background-color:black;
+    cursor: pointer;
+
+}
+.score{
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    margin-top: 70px;
+}
+.playh1{
+    margin-top: 20px;
+    color: brown;
+}
+.comph1{
+    margin-top: 20px;
+    color: brown;
+}
+.Score-name{
+    color: brown;
+}
+.msgcontainer{
+   
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+
+   
+
+}
+.move{
+    background-color: lightcoral;
+    color:black;
+    display: inline;
+    padding:0.5rem ;
+    border-radius: 20px;
+    border: 1px solid lightslategray;
+}
+.move:hover{
+    background-color: crimson;
+    transition: 0.2s;
+}
